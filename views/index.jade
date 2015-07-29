@@ -1,0 +1,7 @@
+extends layout
+
+block content
+	h1= 'GeorgeFM Top 5'
+	each val, index in songs
+		h5 #{val.artist}
+		p #{val.song}
